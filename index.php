@@ -31,7 +31,7 @@ include "database.php";
             <button type="submit" id="add" name='add' >Add</button>
         </div>
 
-        <h3 class="top-heading">Remaining Task </h3>
+        <h3 class="top-heading">List of Pending Task</h3>
         <ul class="list">
         <?php
             
@@ -55,7 +55,7 @@ include "database.php";
     
         <hr>
 
-        <h3 class="top-heading">Completed Task </h3>
+        <h3 class="top-heading">List of Completed Task </h3>
 
         <ul class="list">
 
