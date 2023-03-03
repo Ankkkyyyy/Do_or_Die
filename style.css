@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-heading
+{
+    text-align:center;
+    color: white;
+    margin-top: 40px;
+    /* text-decoration: underline; */
+    
+}
+
+.below-heading{
+    text-align:center;
+    color: white;
+    margin-top: 40px;
+}
+
+form{
+    width: 70%;
+    max-width: 500px;
+}
+
+.input-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    /* background-color: aqua; */
+}
+
+body{
+    background-color: #042743;
+
+}
+
+#inputBox
+{
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: large;
+    
+}
+
+
+#add
+{
+    /* width: 100%; */
+    margin-left: 10px;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #6C62CA;
+    box-shadow: 2px 2px 20px 1px black;
+}
+
+
+#add:hover{
+    cursor: pointer;
+}
+
+
+
+.item{
+    background-color: #47408abb;;
+    display:flex;
+    font-size: x-large;
+    padding: 20px;
+    margin:10px;
+    color: white;
+    border-radius: 5px 10px;
+    box-shadow: 0px 0px 10px 1px rgb(50, 50, 50);
+}
+
+.item p{
+    flex-basis: 80%;
+}
+
+.item-container{
+    flex-basis: 20%;
+}
+
+.icon-container button{
+    /* visibility: hidden; */
+    border: none;
+    background-color: transparent;
+    font-size: x-large;
+}
+
+.fa-sharp,.fa-solid{
+    color: antiquewhite;
+    cursor: pointer;
+    font-size: x-large;
+    transition:all 0.3s
+}
+
+
+.fa-sharp:hover{
+    transform: scale(1.3);
+
+}
+.fa-solid:hover{
+    transform: scale(1.3);
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.deleted-text{
+    text-decoration: line-through;
+    color: rgb(196, 43, 43);
+}
+
+.fade{
+    background-color: #12395a;
+}
